@@ -69,7 +69,7 @@
     cursor: pointer;
   }
   .info {
-    padding: 75px 0 25px;
+    padding: 70px 0 25px;
     display: block;
     text-align: center;
   }
@@ -80,7 +80,8 @@
   }
   .info .age {
     font-weight: 400;
-    color: var(--DarkGrayishBlue);
+    color: var(--DarkGrayishBlue); 
+    padding-left: 3px;
   }
   .info .location {
     color: var(--DarkGray);
@@ -98,7 +99,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 27px;
   }
   .stats > li > span {
     display: block;
@@ -110,7 +111,7 @@
   }
   .stats > li .soc {
     color: var(--DarkGray);
-    font-size: 0.6875rem;
-    letter-spacing: 0.0625rem;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
     margin-top: 4px;
   }
