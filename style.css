@@ -29,7 +29,7 @@
     font-family: 'Kumbh Sans', sans-serif; /* Font Weight 400 / 700 */
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), var(--DarkCyan);
     background-repeat: no-repeat;
-    background-position: right 54vw bottom 34vh, left 49vw top 52vh;
+    background-position: right 52vw bottom 34vh, left 48vw top 51vh;
 }
 @media (max-width: 767px) {
   body {
@@ -45,6 +45,12 @@
     z-index: 2;
     border-radius: 13px;
     overflow: hidden;
+    -moz-box-shadow: 0px 10px 65px rgb(16 96 104 / 31%),
+    0px -10px 65px rgb(16 96 104 / 31%);
+    -webkit-box-shadow: 0px 10px 65px rgb(16 96 104 / 31%),
+    0px -10px 65px rgb(16 96 104 / 31%);
+    box-shadow: 0px 10px 65px rgb(16 96 104 / 31%),
+    0px -10px 65px rgb(16 96 104 / 31%);
     transition: 0.3s ease;
   }
   .card:hover {
@@ -76,7 +82,7 @@
   .name {
     font-size: var(--Name-Stats);
     color: var(--VeryDarkDesaturatedBlue);
-    margin-bottom: 7px;
+    margin-bottom: 5px;
   }
   .info .age {
     font-weight: 400;
@@ -99,7 +105,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 27px;
+    margin: 0 25px;
   }
   .stats > li > span {
     display: block;
@@ -111,7 +117,7 @@
   }
   .stats > li .soc {
     color: var(--DarkGray);
-    font-size: 0.6rem;
+    font-size: 0.6250rem;
     letter-spacing: 1px;
     margin-top: 4px;
   }
