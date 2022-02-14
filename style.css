@@ -88,7 +88,7 @@
   }
   .info .location {
     color: var(--DarkGray);
-    font-size: 0.933rem;
+    font-size: 0.9rem;
   }
   .stats {
     display: flex;
