@@ -111,7 +111,6 @@
   .stats > li .num {
     color: var(--VeryDarkDesaturatedBlue);
     font-size: var(--Name-Stats);
-    font-weight: 700;
   }
   .stats > li .soc {
     color: var(--DarkGray);
