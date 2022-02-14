@@ -29,7 +29,7 @@
     font-family: 'Kumbh Sans', sans-serif; /* Font Weight 400 / 700 */
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), var(--DarkCyan);
     background-repeat: no-repeat;
-    background-position: right 53vw bottom 34vh, left 49vw top 54vh;
+    background-position: right 54vw bottom 34vh, left 49vw top 52vh;
 }
 @media (max-width: 767px) {
   body {
@@ -69,14 +69,14 @@
     cursor: pointer;
   }
   .info {
-    padding: 70px 0 35px;
+    padding: 75px 0 30px;
     display: block;
     text-align: center;
   }
   .name {
     font-size: var(--Name-Stats);
     color: var(--VeryDarkDesaturatedBlue);
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
   .info .age {
     font-weight: 400;
@@ -84,14 +84,14 @@
   }
   .info .location {
     color: var(--DarkGray);
-    font-size: 0.933rem;
+    font-size: 0.866rem;
   }
   .stats {
     display: flex;
     align-items: center;
     justify-content: center;
     border-top: 0.1px solid var(--DarkGray);
-    padding: 20px;
+    padding: 25px;
   }
   .stats > li {
     display: flex;
@@ -112,5 +112,5 @@
     color: var(--DarkGray);
     font-size: 0.6875rem;
     letter-spacing: 0.0625rem;
-    margin-top: 5px;
+    margin-top: 4px;
   }
