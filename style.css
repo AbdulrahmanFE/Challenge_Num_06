@@ -88,13 +88,14 @@
   }
   .info .location {
     color: var(--DarkGray);
-    font-size: 0.92rem;
+    font-size: 0.937rem;
+    font-weight: 700;
   }
   .stats {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid rgb(230 230 230);
+    border-top: 1px solid rgb(227 227 227);
     padding: 24px 0;
   }
   .stats > li {
@@ -102,7 +103,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 26px;
+    margin: 0 26.5px;
   }
   .stats > li > span {
     display: block;
@@ -114,7 +115,7 @@
   }
   .stats > li .soc {
     color: var(--DarkGray);
-    font-size: 0.6675rem;
+    font-size: 0.67rem;
     letter-spacing: 1px;
     margin-top: 4px;
   }
